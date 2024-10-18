@@ -21,7 +21,7 @@ celeba_dir
 ├── img_celeba
 |   ├── 000001.jpg
 |   ├── 000002.jpg
-|   ...
+    ...
 ├── Anno
     └── list_landmarks_celeba.txt
 
@@ -29,7 +29,7 @@ delta_dir
 ├── image_list.txt
 ├── deltas00000.zip
 ├── deltas01000.zip
-|   ...
+    ...
 └── deltas29000.zip
 
 
