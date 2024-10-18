@@ -39,7 +39,7 @@ delta_dir
   **1. 可以直接修改参数行默认值 default=''**
   
   **例如**：
-      ```bash
+  
       p.add_argument(    '-create_what', help='what dataset', default='celebahq')
       
       p.add_argument(     '-h5_filename',      help='HDF5 file to create', default='123456.h5')
@@ -47,11 +47,13 @@ delta_dir
       p.add_argument(     '-celeba_dir',       help='Directory to read CelebA data from', default='/a/b/e')
       
       p.add_argument(     '-delta_dir',        help='Directory to read CelebA-HQ deltas from', default='/a/b/d')
-      ```
+
   **2. 在终端中运行**
+  
       ```bash
       cd <dir_of_h5tool.py>
       ```
+      
       ```bash
       python h5tool.py --celeba_dir <path_to_celeba> --delta_dir <path_to_delta>
       ```
