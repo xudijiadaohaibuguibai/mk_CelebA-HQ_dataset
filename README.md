@@ -6,6 +6,8 @@
 
 用于生成 [CelebA-HQ](https://github.com/tkarras/progressive_growing_of_gans) 数据集。
 代码基于 [celeba-hq-modified](https://github.com/willylulu/celeba-hq-modified/tree/master) ，进行了略微修改。
+
+CelebA-HQ 数据集是在 ICLR2018 由 NVIDIA 在 [《Progressive Growing of GANs for Improved Quality, Stability, and Variation》](https://arxiv.org/abs/1710.10196) 中提出，其中包含30k张1024分辨率图像。
 ## Usage
 ### 1. 可以直接修改参数行默认值 default=''
   **例如**：
