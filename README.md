@@ -1,6 +1,6 @@
 # mk_CelebA-HQ_dataset
 ![Sample Image](imgs/200122.png)
-- **Change**:
+**Change**:
   - python3.6。
   - 自定义保存路径，保存格式PNG。
 ## Usage
