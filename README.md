@@ -49,7 +49,7 @@ delta_dir
       
       p.add_argument(     '-delta_dir',        help='Directory to read CelebA-HQ deltas from', default='/a/b/d')
 
-  **2. 在终端中运行**
+  **2. 直接在终端中运行**
   
       cd <dir_of_h5tool.py>
       
