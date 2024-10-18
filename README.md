@@ -51,6 +51,7 @@ CelebA-HQ 数据集是在 ICLR2018 由 NVIDIA 在 [《Progressive Growing of GAN
       
 
   进一步终端中执行：
+  
       python <path_of_h5tool.py>
   
   2. 直接在终端中运行
