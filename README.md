@@ -10,7 +10,11 @@
 ### 1. 可以直接修改参数行默认值
   **例如**：
   p.add_argument(    '-create_what', help='what dataset', default='celebahq')
+  
   p.add_argument(     '-h5_filename',      help='HDF5 file to create', default='123456.h5')
+  
   p.add_argument(     '-celeba_dir',       help='Directory to read CelebA data from', default='/a/b/e')
+  
   p.add_argument(     '-delta_dir',        help='Directory to read CelebA-HQ deltas from', default='/a/b/d')
+  
   p.add_argument(     '-delta_dir',        help='Directory to read CelebA-HQ deltas from', default='/a/b/c')
