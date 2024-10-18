@@ -23,11 +23,8 @@ celeba_dir
 |   ├── 000002.jpg
 |   ...
 ├── Anno
-|   ├── list_landmarks_celeba.txt
+|   └── list_landmarks_celeba.txt
 
-    ├── zotero.sqlite
-    ├── zotero.sqlite.1.bak
-    └── zotero.sqlite.bak
 
    
   **1. 可以直接修改参数行默认值 default=''**
