@@ -14,7 +14,23 @@ CelebA-HQ 数据集是在 ICLR2018 由 NVIDIA 在 [《Progressive Growing of GAN
 
         git clone https://github.com/willylulu/celeb-hq-modified
 
-2. 准备好必需文件
+2. 创建环境
+
+        conda create -n mk_dataset python=3.6
+
+3. 配置环境
+
+        pip install -r requirements.txt
+
+**注意**
+
+如果生成图像带有噪点：
+
+        conda search -c conda-forge jpeg
+
+        conda install -c conda-forge jpeg=8d
+
+5. 准备好必需文件
 
   ```bash
   celeba_dir
