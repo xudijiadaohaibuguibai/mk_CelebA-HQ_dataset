@@ -9,8 +9,8 @@
 
 CelebA-HQ 数据集是在 ICLR2018 由 NVIDIA 在 [《Progressive Growing of GANs for Improved Quality, Stability, and Variation》](https://arxiv.org/abs/1710.10196) 中提出，其中包含30k张1024分辨率图像。
 ## Usage
-    **1. 可以直接修改参数行默认值 default=''**
-    **例如**：
+  **1. 可以直接修改参数行默认值 default=''**
+  **例如**：
   
   p.add_argument(    '-create_what', help='what dataset', default='celebahq')
   
