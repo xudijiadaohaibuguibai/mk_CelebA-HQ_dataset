@@ -38,23 +38,23 @@ CelebA-HQ 数据集是在 ICLR2018 由 NVIDIA 在 [《Progressive Growing of GAN
 
 5. 准备好必需文件
 
-  ```
-  celeba_dir
-  ├── img_celeba
-      ├── 000001.jpg
-      ├── 000002.jpg
-      ...
-  ├── Anno
-      └── list_landmarks_celeba.txt
-  
-  delta_dir
-  ├── image_list.txt
-  ├── deltas00000.zip
-  ├── deltas01000.zip
-      ...
-  └── deltas29000.zip
-  
-  ```
+        ```
+        celeba_dir
+        ├── img_celeba
+            ├── 000001.jpg
+            ├── 000002.jpg
+            ...
+        ├── Anno
+            └── list_landmarks_celeba.txt
+        
+        delta_dir
+        ├── image_list.txt
+        ├── deltas00000.zip
+        ├── deltas01000.zip
+            ...
+        └── deltas29000.zip
+        
+        ```
 
 
 **Second**
@@ -63,28 +63,28 @@ CelebA-HQ 数据集是在 ICLR2018 由 NVIDIA 在 [《Progressive Growing of GAN
   
   **例如**：
 
-      ```
-      p.add_argument(    '-create_what', help='what dataset', default='celebahq')
-      
-      p.add_argument(     '-h5_filename',      help='HDF5 file to create', default='123456.h5')
-      
-      p.add_argument(     '-celeba_dir',       help='Directory to read CelebA data from', default='/a/b/e')
-      
-      p.add_argument(     '-delta_dir',        help='Directory to read CelebA-HQ deltas from', default='/a/b/d')
-      ```
+
+        p.add_argument(    '-create_what', help='what dataset', default='celebahq')
+        
+        p.add_argument(     '-h5_filename',      help='HDF5 file to create', default='123456.h5')
+        
+        p.add_argument(     '-celeba_dir',       help='Directory to read CelebA data from', default='/a/b/e')
+        
+        p.add_argument(     '-delta_dir',        help='Directory to read CelebA-HQ deltas from', default='/a/b/d')
 
   进一步终端中执行：
-  
-      ```
-      python <path_of_h5tool.py>
-      ```
+
+        ```
+        python <path_of_h5tool.py>
+        ```
   
   2. 直接在终端中运行
-      ```
-      cd <dir_of_h5tool.py>
-      
-      python h5tool.py --celeba_dir <path_to_celeba> --delta_dir <path_to_delta>
-      ```
+  
+        ```
+        cd <dir_of_h5tool.py>
+        
+        python h5tool.py --celeba_dir <path_to_celeba> --delta_dir <path_to_delta>
+        ```
 ## Reference
 [tkarras/progressive_growing_of_gans](https://github.com/tkarras/progressive_growing_of_gans)
 
