@@ -597,8 +597,15 @@ def create_celeba_hq(h5_filename, celeba_dir, delta_dir, save_dir, num_threads=4
         return orig_file, img64, img128, img256, img512, img
 
     def ensure_dir(directory):
-        if not os.path.exists(directory):
+    if not os.path.exists(directory):
+        try:
             os.makedirs(directory)
+        except PermissionError:
+            print(f"Permission denied: Cannot create directory {directory}. Check your write permissions.")
+            exit(1)
+    elif not os.access(directory, os.W_OK):
+        print(f"Cannot write to directory: {directory}. Check your write permissions.")
+        exit(1)
 
     # Save all generated images.
     with ThreadPool(num_threads) as pool:
