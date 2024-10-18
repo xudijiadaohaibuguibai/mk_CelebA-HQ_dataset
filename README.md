@@ -25,6 +25,10 @@ celeba_dir
 |__ Anno
 |   |-- list_landmarks_celeba.txt
 
+    ├── zotero.sqlite
+    ├── zotero.sqlite.1.bak
+    └── zotero.sqlite.bak
+
    
   **1. 可以直接修改参数行默认值 default=''**
   
