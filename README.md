@@ -23,7 +23,7 @@ celeba_dir
 |   ├── 000002.jpg
 |   ...
 ├── Anno
-|   └── list_landmarks_celeba.txt
+    └── list_landmarks_celeba.txt
 
 
    
