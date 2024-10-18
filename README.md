@@ -37,7 +37,7 @@ CelebA-HQ 数据集是在 ICLR2018 由 NVIDIA 在 [《Progressive Growing of GAN
 
 **Second**
 
-  **1. 可以直接修改参数行默认值 default=''**
+  1. 可以直接修改参数行默认值 default=''
   
   **例如**：
   
@@ -49,7 +49,7 @@ CelebA-HQ 数据集是在 ICLR2018 由 NVIDIA 在 [《Progressive Growing of GAN
       
       p.add_argument(     '-delta_dir',        help='Directory to read CelebA-HQ deltas from', default='/a/b/d')
 
-  **2. 直接在终端中运行**
+  2. 直接在终端中运行
   
       cd <dir_of_h5tool.py>
       
