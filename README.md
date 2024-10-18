@@ -1,5 +1,5 @@
 # mk_CelebA-HQ_dataset
-![Sample Image](images/200122.png)
+![Sample Image](imgs/200122.png)
 ## Usage
 ### 1. 可以直接修改参数行默认值
 例如：
