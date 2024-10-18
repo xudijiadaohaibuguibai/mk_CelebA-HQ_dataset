@@ -50,13 +50,9 @@ delta_dir
 
   **2. 在终端中运行**
   
-      ```bash
       cd <dir_of_h5tool.py>
-      ```
       
-      ```bash
       python h5tool.py --celeba_dir <path_to_celeba> --delta_dir <path_to_delta>
-      ```
 
 ## Reference
 [tkarras/progressive_growing_of_gans](https://github.com/tkarras/progressive_growing_of_gans)
