@@ -14,7 +14,7 @@ CelebA-HQ 数据集是在 ICLR2018 由 NVIDIA 在 [《Progressive Growing of GAN
 
         git clone https://github.com/willylulu/celeb-hq-modified
 
-2. 准备好运行必须文件
+2. 准备好运行必需文件
 
 ```bash
 celeba_dir
@@ -24,6 +24,16 @@ celeba_dir
 |   ...
 ├── Anno
     └── list_landmarks_celeba.txt
+
+delta_dir
+├── image_list.txt
+├── deltas00000.zip
+├── deltas01000.zip
+|   ...
+└── deltas29000.zip
+
+
+
 
 
    
@@ -35,4 +45,3 @@ celeba_dir
       p.add_argument(     '-h5_filename',      help='HDF5 file to create', default='123456.h5')
       p.add_argument(     '-celeba_dir',       help='Directory to read CelebA data from', default='/a/b/e')
       p.add_argument(     '-delta_dir',        help='Directory to read CelebA-HQ deltas from', default='/a/b/d')
-      p.add_argument(     '-delta_dir',        help='Directory to read CelebA-HQ deltas from', default='/a/b/c')
