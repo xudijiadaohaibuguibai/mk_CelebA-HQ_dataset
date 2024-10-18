@@ -72,10 +72,12 @@ CelebA-HQ 数据集是在 ICLR2018 由 NVIDIA 在 [《Progressive Growing of GAN
         python <path_of_h5tool.py>
   
   2. 直接在终端中运行
-  
+
+        ```
         cd <dir_of_h5tool.py>
-        
+
         python h5tool.py --celeba_dir <path_to_celeba> --delta_dir <path_to_delta>
+        ```
 
 ## Reference
 [tkarras/progressive_growing_of_gans](https://github.com/tkarras/progressive_growing_of_gans)
