@@ -38,7 +38,7 @@ CelebA-HQ 数据集是在 ICLR2018 由 NVIDIA 在 [《Progressive Growing of GAN
 
 5. 准备好必需文件
 
-  ```bash
+  ```
   celeba_dir
   ├── img_celeba
       ├── 000001.jpg
