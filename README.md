@@ -1,7 +1,7 @@
 # mk_CelebA-HQ_dataset
 ![Sample Image](imgs/200122.png)
 **Change**:
-  - python3.6。
+  - Python3.6。
   - 自定义保存路径，保存格式PNG。
 
 用于生成 [CelebA-HQ](https://github.com/tkarras/progressive_growing_of_gans) 数据集。
@@ -9,6 +9,12 @@
 
 CelebA-HQ 数据集是在 ICLR2018 由 NVIDIA 在 [《Progressive Growing of GANs for Improved Quality, Stability, and Variation》](https://arxiv.org/abs/1710.10196) 中提出，其中包含30k张1024分辨率图像。
 ## Usage
+
+**Base env**
+  - Python 3.6
+  - Ubuntu 22.04.4 LTS
+  - 内核 6.8.0-47-generic
+
 **First**
 1. 克隆本仓库
 
