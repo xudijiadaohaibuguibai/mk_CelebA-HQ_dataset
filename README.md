@@ -38,7 +38,6 @@ CelebA-HQ 数据集是在 ICLR2018 由 NVIDIA 在 [《Progressive Growing of GAN
 
 5. 准备好必需文件
 
-        ```
         celeba_dir
         ├── img_celeba
             ├── 000001.jpg
@@ -53,16 +52,12 @@ CelebA-HQ 数据集是在 ICLR2018 由 NVIDIA 在 [《Progressive Growing of GAN
         ├── deltas01000.zip
             ...
         └── deltas29000.zip
-        
-        ```
-
 
 **Second**
 
   1. 可以直接修改参数行默认值 default=''
   
   **例如**：
-
 
         p.add_argument(    '-create_what', help='what dataset', default='celebahq')
         
@@ -74,17 +69,14 @@ CelebA-HQ 数据集是在 ICLR2018 由 NVIDIA 在 [《Progressive Growing of GAN
 
   进一步终端中执行：
 
-        ```
         python <path_of_h5tool.py>
-        ```
   
   2. 直接在终端中运行
   
-        ```
         cd <dir_of_h5tool.py>
         
         python h5tool.py --celeba_dir <path_to_celeba> --delta_dir <path_to_delta>
-        ```
+
 ## Reference
 [tkarras/progressive_growing_of_gans](https://github.com/tkarras/progressive_growing_of_gans)
 
