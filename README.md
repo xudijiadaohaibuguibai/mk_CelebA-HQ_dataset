@@ -13,6 +13,7 @@ CelebA-HQ 数据集是在 ICLR2018 由 NVIDIA 在 [《Progressive Growing of GAN
 1. 克隆本仓库
 
     git clone https://github.com/willylulu/celeb-hq-modified
+   
   **1. 可以直接修改参数行默认值 default=''**
   
   **例如**：
